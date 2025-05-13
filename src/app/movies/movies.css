@@ -1,0 +1,41 @@
+.movie-detail-id {
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.movie-detail-id-img {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    justify-self: center;
+
+}
+
+.movie-detail-id-img img {
+    object-fit: cover;
+}
+
+.movie-detail-id-info h2 {
+    text-decoration: underline;
+}
+
+.like-button {
+    color: red;
+    position:relative;
+    top: 25px;
+    left: 30px;
+}
+
+.like-button.like {
+    color: red;
+}
